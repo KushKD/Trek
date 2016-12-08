@@ -15,7 +15,7 @@
 						<a class="example-image-link" href="images/gallery-1-big.jpg" data-lightbox="example-set" data-title="">
 							<div class="grid">
 								<figure class="effect-apollo">
-									<img src="images/gallery-1.jpg" alt="Wanderer"/>
+									<img src="images/gallery-1.jpg" alt=""/>
 										<figcaption></figcaption>
 								</figure>
 							</div>
@@ -27,7 +27,7 @@
 								<a class="example-image-link" href="images/gallery-4-big.jpg" data-lightbox="example-set" data-title="">
 									<div class="grid">
 										<figure class="effect-apollo">
-											<img src="images/gallery-4.jpg" alt="Wanderer"/>
+											<img src="images/gallery-4.jpg" alt=""/>
 												<figcaption></figcaption>
 										</figure>
 									</div>
@@ -37,7 +37,7 @@
 								<a class="example-image-link" href="images/gallery-5-big.jpg" data-lightbox="example-set" data-title="">
 									<div class="grid">
 										<figure class="effect-apollo">
-											<img src="images/gallery-5.jpg" alt="Wanderer"/>
+											<img src="images/gallery-5.jpg" alt=""/>
 												<figcaption></figcaption>
 										</figure>
 									</div>
@@ -49,7 +49,7 @@
 								<a class="example-image-link" href="images/gallery-7-big.jpg" data-lightbox="example-set" data-title="">
 									<div class="grid">
 										<figure class="effect-apollo">
-											<img src="images/gallery-7.jpg" alt="Wanderer"/>
+											<img src="images/gallery-7.jpg" alt=""/>
 												<figcaption></figcaption>
 										</figure>
 									</div>
@@ -65,7 +65,7 @@
 							<a class="example-image-link" href="images/gallery-2-big.jpg" data-lightbox="example-set" data-title="">
 								<div class="grid">
 									<figure class="effect-apollo">
-										<img src="images/gallery-2.jpg" alt="Wanderer"/>
+										<img src="images/gallery-2.jpg" alt=""/>
 											<figcaption></figcaption>
 									</figure>
 								</div>
@@ -77,7 +77,7 @@
 							<a class="example-image-link" href="images/gallery-3-big.jpg" data-lightbox="example-set" data-title="">
 								<div class="grid">
 									<figure class="effect-apollo">
-										<img src="images/gallery-3.jpg" alt="Wanderer"/>
+										<img src="images/gallery-3.jpg" alt=""/>
 											<figcaption></figcaption>
 									</figure>
 								</div>
@@ -90,7 +90,7 @@
 							<a class="example-image-link" href="images/gallery-6-big.jpg" data-lightbox="example-set" data-title="">
 								<div class="grid">
 									<figure class="effect-apollo">
-										<img src="images/gallery-6.jpg" alt="Wanderer"/>
+										<img src="images/gallery-6.jpg" alt=""/>
 											<figcaption></figcaption>
 									</figure>
 								</div>
@@ -102,7 +102,7 @@
 							<a class="example-image-link" href="images/gallery-8-big.jpg" data-lightbox="example-set" data-title="">
 								<div class="grid">
 									<figure class="effect-apollo">
-										<img src="images/gallery-8.jpg" alt="Wanderer"/>
+										<img src="images/gallery-8.jpg" alt=""/>
 											<figcaption></figcaption>
 									</figure>
 								</div>
@@ -114,7 +114,7 @@
 							<a class="example-image-link" href="images/gallery-9-big.jpg" data-lightbox="example-set" data-title="">
 								<div class="grid">
 									<figure class="effect-apollo">
-										<img src="images/gallery-9.jpg" alt="Wanderer"/>
+										<img src="images/gallery-9.jpg" alt=""/>
 											<figcaption></figcaption>
 									</figure>
 								</div>
