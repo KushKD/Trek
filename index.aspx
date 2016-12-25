@@ -11,7 +11,7 @@
         <ul class="rslides" id="slider1">
             <li>
                 <img src="images/slider/slide-1.jpg" alt="" />
-                <a href="gallery.aspx">
+                <a href="MountEverest2017.aspx">
                     <div class="caption">
                         <h3>2017 Mt.Everest Base Camp</h3>
                     </div>
@@ -82,10 +82,10 @@
                             </div>
                             <div class="col-md-7 col-sm-7 tab-info">
                                 <p style="margin-top: -50px">
-                                    <span style="font: 600" role="presentation">Mt. Everest Base Camp And Summit of Mt. Kalapatthar(18,188 Ft) </span>
+                                   <strong style="color: red;"> Mt. Everest Base Camp And Summit of Mt. Kalapatthar(18,188 Ft) </strong>
                                     <br />
                                     The Everest area, known locally as Sagarmatha National Park, is home to some of the world’s highest peaks. This trek is one that goes deep into the heart of the Himalaya. The mountain views are stunning, and the simplicity and hospitality of the Sherpa community is heartwarming. You will get to take in the awe-inspiring views of Mt. Everest, the tallest of them all, Mt Lhotse, Mt. Nuptse, Lobouche Peak, Mt Amadablam, Kasum Kangru peak, Thamserku peak and Kwangde peak. You will also be visiting Sherpa villages and monasteries to gain insight into their culture and lifestyle from up close.
-                                <a href="#" class="hvr-sweep-to-right">Read More</a>
+                                <a href="MountEverest2017.aspx" class="hvr-sweep-to-right">Read More</a>
                                 </p>
                             </div>
                             <div class="clearfix"></div>
