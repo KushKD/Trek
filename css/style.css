@@ -2835,13 +2835,13 @@ ul.social-icons li {
 /*--nemo end here--*/
 /*--trip start here--*/
 .trip-left {
-  background: url(../images/4.jpg)no-repeat;
-  min-height: 450px;
-  background-size: cover;
+   background:#777;
+  min-height: 650px;
+  padding: 6em 3em 0em 9em;
 }
 .trip-right {
-  background: #7BCEC4;
-  min-height: 450px;
+  background:#FFF;
+  min-height: 650px;
   padding: 6em 3em 0em 9em;
 }
 .trip-right h3 {
