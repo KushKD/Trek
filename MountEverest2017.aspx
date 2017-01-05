@@ -21,7 +21,7 @@
             </div>
             <div class="col-md-6 welcome-left">
                 <div style="padding: 15px;">
-                    <img class="img-thumbnail" src="images/Mt.Everest2017/top.jpg" alt="Wanderer">
+                    <img class="img-thumbnail" style="min-height: 300px; margin-top: 50px;" src="images/Mt.Everest2017/top.jpg" alt="Everest Base Camp">
                 </div>
             </div>
         </div>
@@ -29,22 +29,9 @@
     <div class="clearfix"></div>
     <!--welcome end here-->
 
-    <div class="container-fixed">
-        <div class="row">
-            <div class="col-md-7" style="padding: 10px;">
-            </div>
-            <div class="col-md-4" style="padding: 10px; margin: 10px;">
-                <a href="pdf/EverestBaseCampItenery.pdf">
-                    <p class="btn btn-success btn-sm"><span>Download Itinerary</span></p>
-                </a>
-                <a href="contact.aspx">
-                    <p class="btn btn-warning btn-sm"><span>Contct Us</span></p>
-                </a>
-            </div>
-        </div>
-    </div>
+
     <!--trip grig start here-->
-    <div class="trip" style="margin-top: 10px; margin-bottom: 10px;">
+    <div class="trip" style="margin-bottom: 10px;">
         <div class="trip-main">
             <div class="col-md-6 trip-left pre-scrollable" style="padding: 20px;">
                 <div class="row">
@@ -271,11 +258,14 @@ There is a trekkers’ aid post operated at Periche, supported by the Himalayan 
                 <!-- Social-Icons -->
                 <div class="social" style="background-color#777;">
                     <ul class="social-icons">
-                        <li><a href="#" class="facebook" title="Go to Our Facebook Page"></a></li>
-                        <li><a href="#" class="twitter" title="Go to Our Twitter Account"></a></li>
-                        <li><a href="#" class="googleplus" title="Go to Our Google Plus Account"></a></li>
-                        <li><a href="#" class="instagram" title="Go to Our Instagram Account"></a></li>
-                        <li><a href="#" class="youtube" title="Go to Our Youtube Channel"></a></li>
+                        <li><a href="https://www.facebook.com/tsolaadventures" class="facebook" title="Go to Our Facebook Page"></a></li>
+                        <li><a href="https://twitter.com/Tso_LaAdventure" class="twitter" title="Go to Our Twitter Account"></a></li>
+                        <li><a href="https://plus.google.com/u/0/103334864232863873445" class="googleplus" title="Go to Our Google Plus Account"></a></li>
+                        <li><a href="https://www.instagram.com/tso_laadventures" class="instagram" title="Go to Our Instagram Account"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCJ7pHmG1LaHW5uavpmq_k-g" class="youtube" title="Go to Our Youtube Channel"></a></li>
+                        <li style="margin-top: -20px; margin-left: 10px;"><a href="contact.aspx">
+                            <p class="btn btn-warning btn-sm"><span>Contct Us</span></p>
+                        </a></li>
                     </ul>
                 </div>
             </div>
