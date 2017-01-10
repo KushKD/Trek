@@ -41,7 +41,7 @@
                                 <td style="margin: 10px;">
 
                                     <div style="background-color: #FFF; margin: 10px; padding: 10px; border-color: mediumaquamarine; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 10px 10px 0 #C2C2C2; box-shadow: 0 10px 10px 0 #C2C2C2;">
-                                        <a href="Package_Description.aspx?productID=<%# Eval("ID")%>">
+                                        <a href="TreknAdventureDescription.aspx?ID=<%# Eval("ID")%>">
                                             <img src="/images/trekking/ThumbPic/<%# Eval("ThumbPic")%>" class="img-responsive center-block" style="width: 200px; height: 200px;" />
                                             <p class="text-center text-capitalize text-warning center-block" style="font-size: 18px;"><%# Eval("Name")%> </p>
                                             <p class="text-center text-capitalize text-warning center-block" style="font-size: 18px;"><%# Eval("TrekType")%> </p>

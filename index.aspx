@@ -98,7 +98,7 @@
                                 <p>
                                     There are few experiences that open up not just your heart but also the lungs and your mind and hiking does just that. Hiking or trekking  is the best possible way to 
 experience the local flavors of the destination. With the pace under your command, stop at leisure, meet people who live around there, try native cuisine from small 
-hole-in-the wall shops, make new friends and come back with an interesting tale of your own!<a href="#" class="hvr-sweep-to-right">Read More</a>
+hole-in-the wall shops, make new friends and come back with an interesting tale of your own!<a href="Trekking.aspx" class="hvr-sweep-to-right">Read More</a>
                                 </p>
                             </div>
                             <div class="clearfix"></div>
