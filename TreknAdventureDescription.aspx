@@ -4,14 +4,17 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
-    <div class="container-fixed" style="height: 80px; background-color: #000000">
-    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
     <div id="webcontent" runat="server" class="container-fixed" style="background-color: #FFF;">
     </div>
 
 
-     <!-- STRIP HELP -->
+    <!-- STRIP HELP -->
     <div class="container-fixed" style="margin-top: 10px">
         <div class="row" style="background-color: black">
             <div class="col-md-12" style="padding: 10px;">

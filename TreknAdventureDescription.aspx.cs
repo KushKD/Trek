@@ -26,24 +26,98 @@ public partial class TreknAdventureDescription : System.Web.UI.Page
             ID = Request.QueryString["ID"];
             Projects_List = SearchInData();
             StringBuilder html = new StringBuilder();
-
-            html.Append("<div class='row'   runat='server' style='background - color: #FFF; margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px; padding: 15px; border-color: aquamarine; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 10px 10px 0 #C2C2C2; box-shadow: 0 10px 10px 0 #C2C2C2;'> ");
             for (int i = 0; i < Projects_List.Count(); i++)
             {
-                html.Append("<div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'> <img src = 'images/project_thumb/" + Projects_List[i].BigPicInner.ToString().Trim() + "' class='img-responsive img-thumbnail center-block' style='min-width:180px;min-height:180px;' />");
-                html.Append("</div>");
-                html.Append("<div class='col-lg-7 col-md-4 col-sm-6 col-xs-12' id='" + i + "' runat='server' style='background-color:#FFF;margin:5px;'> ");
-                html.Append("<h2 class='text-center center-block'>" + Projects_List[i].Name.ToString().Trim() + "</h2>");
-                html.Append("<h2 class='text-center center-block'>" + Projects_List[i].Detailed.ToString().Trim() + "</h2>");
-                html.Append("<p class='text-center center-block'>" + Projects_List[i].Short_Itinerary.ToString().Trim() + "</p>");
+            
+    
+                //OverView and Image
+                html.Append("<div class='welcome' style='margin-top:20px;'><div class='welcome-main'> <div class='col-md-7 welcome-left'><div style = 'padding:10px;'><p><strong style='color: yellow; font-size: large;'> " + Projects_List[i].Name.ToString().Trim()+ "</strong></p>");
+                html.Append("<p>" + Projects_List[i].Overview.ToString().Trim() + "</p>");
+                html.Append("</div></div>");
 
+                html.Append("<div class='col-md-5 welcome-left'><div style='padding:15px;'> <img class='img-thumbnail' style='max-height:350px; ' src = 'images/trekking/ThumbPic/" + Projects_List[i].BigPicInner.ToString().Trim() +"'" );
                 html.Append("</div>");
+                html.Append("</div>");
+                html.Append("</div>");
+
+                //Itenery Short and Long
+                html.Append("<div class='trip' style='margin-bottom:10px;'>");
+                html.Append(" <div class='trip-main'>");
+                html.Append("<div class='col-md-6 trip-left pre-scrollable' style='padding: 20px;'>");
+                html.Append("<div class='row'>");
+                html.Append("<div class='col-md-12'>");
+                html.Append("<p class='col-md-12 center-block'><strong style = 'color: yellow; font-size: large;'>" + "<p>Short Itinerary</p>" + "</strong></p>");
+                html.Append("</div>");
+                html.Append("</div>");
+                html.Append("<hr />");
+                if (Projects_List[i].Short_Itinerary.ToString().Trim().Length!=0)
+                {
+                    html.Append(Projects_List[i].Short_Itinerary.ToString().Trim());
+                }else
+                {
+                    html.Append("<p class='col-md-12 center-block'><strong style = 'color: yellow; font-size: large;'>" + "<p>Nothing To Show.</p>" + "</strong></p>");
+                }
+                html.Append(Projects_List[i].ShortDescription.ToString().Trim());
+                html.Append("</div>");
+
+
+                html.Append("<div class='col-md-6 trip-right pre-scrollable' style='padding: 20px;'>");
+                html.Append(" <p><strong style='color:black; font-size: x-large;'>The Complete Itinerary</strong></p>");
+                html.Append("<div class='list-group' style='margin-top: 10px; marginbottom:10px;'>");
+                html.Append(Projects_List[i].Detailed.ToString().Trim());
+                html.Append("</div>");
+                html.Append("</div>");
+                html.Append("<div class='clearfix'></div></div></div>");
+
+                //Image Galaary
+                html.Append("<div class='nemo'>");
+                html.Append("<div class='container'>");
+                html.Append("<div class='col-md-12'>");
+                html.Append("<ul class='griddle'>");
+                html.Append("<li class='gridder-list'><img src = 'http://placehold.it/600x400'/></ li >'");
+                html.Append("</ul></div></div>");
+                html.Append("</div>");
+
+
+
+
+
+                //Inclusion and Exclusion
+                html.Append("<div class='nemo'>");
+                html.Append("<div class='container'>");
+                html.Append("<div class='nemo-main'>");
+                
+                html.Append("<div class='col-md-6 nemo-left ' style='padding: 10px; ' >");
+                html.Append(" <p><strong style='color: darkgreen; font - size: large; '>Cost Includes</strong></p>");
+                html.Append("<ul class='list-group'>");
+                html.Append(Projects_List[i].Inclusion.ToString().Trim());
+                html.Append("</ul></div>");
+
+                html.Append("<div class='col-md-6 nemo-left ' style='padding: 10px; ' >");
+                html.Append(" <p><strong style='color: red; font - size: large; '>Cost Excludes</strong></p>");
+                html.Append("<ul class='list-group'>");
+                html.Append(Projects_List[i].Exclusion.ToString().Trim());
+                html.Append("</ul></div>");
+
+
+
+
+                html.Append("<div class='clearfix'></div></div></div>");
+                html.Append("</div>");
+                html.Append("</div>");
+                html.Append("</div>");
+
+
+
+
+
+
+
 
 
             }
 
-
-            html.Append("</div>");
+            
             webcontent.InnerHtml = html.ToString();
         }
 

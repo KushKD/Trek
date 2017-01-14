@@ -209,6 +209,8 @@ There is a trekkers’ aid post operated at Periche, supported by the Himalayan 
         </div>
     </div>
     <!--trip end here-->
+
+
     <!--Costs start here-->
     <div class="nemo">
         <div class="container">

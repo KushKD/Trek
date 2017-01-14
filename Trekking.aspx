@@ -11,6 +11,7 @@
         <div class="container">
             <br />
             <div class="clearfix"></div>
+            <br />
             <h4>Trekking </h4>
 
             <div class="grid_3 grid_5">
