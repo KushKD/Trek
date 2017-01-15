@@ -70,14 +70,69 @@ public partial class TreknAdventureDescription : System.Web.UI.Page
                 html.Append("<div class='clearfix'></div></div></div>");
 
                 //Image Galaary
-                html.Append("<div class='nemo'>");
-                html.Append("<div class='container'>");
-                html.Append("<div class='col-md-12'>");
-                html.Append("<ul class='griddle'>");
-                html.Append("<li class='gridder-list'><img src = 'http://placehold.it/600x400'/></ li >'");
-                html.Append("</ul></div></div>");
-                html.Append("</div>");
+                html.Append("<div class='nemo container nemo-main' style='font-size:0;'>");
+                html.Append("<ul id='rig'>");
 
+                html.Append("<li>");
+                html.Append("<a href='images/trekking/" + Projects_List[i].ImageOne.ToString().Trim() + "' class='rig-cell'>");
+                html.Append("<img class='rig-img'  src='images/trekking/" + Projects_List[i].ImageOne.ToString().Trim() + "'"); 
+                html.Append("</img>");
+                html.Append("</a>");
+                html.Append("</li>");
+
+                html.Append("<li>");
+                html.Append("<a href='images/trekking/" + Projects_List[i].ImageTwo.ToString().Trim() + "' class='rig-cell'>");
+                html.Append("<img class='rig-img'  src='images/trekking/" + Projects_List[i].ImageTwo.ToString().Trim() + "'");
+                html.Append("</img>");
+                html.Append("</a>");
+                html.Append("</li>");
+
+                html.Append("<li>");
+                html.Append("<a href='images/trekking/" + Projects_List[i].ImageThree.ToString().Trim() + "' class='rig-cell'>");
+                html.Append("<img class='rig-img'  src='images/trekking/" + Projects_List[i].ImageThree.ToString().Trim() + "'");
+                html.Append("</img>");
+                html.Append("</a>");
+                html.Append("</li>");
+
+                html.Append("<li>");
+                html.Append("<a href='images/trekking/" + Projects_List[i].ImageFour.ToString().Trim() + "' class='rig-cell'>");
+                html.Append("<img class='rig-img'  src='images/trekking/" + Projects_List[i].ImageFour.ToString().Trim() + "'");
+                html.Append("</img>");
+                html.Append("</a>");
+                html.Append("</li>");
+
+                html.Append("<li>");
+                html.Append("<a href='images/trekking/" + Projects_List[i].ImageFive.ToString().Trim() + "' class='rig-cell'>");
+                html.Append("<img class='rig-img'  src='images/trekking/" + Projects_List[i].ImageFive.ToString().Trim() + "'");
+                html.Append("</img>");
+                html.Append("</a>");
+                html.Append("</li>");
+
+                html.Append("<li>");
+                html.Append("<a href='images/trekking/" + Projects_List[i].ImageSix.ToString().Trim() + "' class='rig-cell'>");
+                html.Append("<img class='rig-img'  src='images/trekking/" + Projects_List[i].ImageSix.ToString().Trim() + "'");
+                html.Append("</img>");
+                html.Append("</a>");
+                html.Append("</li>");
+
+
+                html.Append("<li>");
+                html.Append("<a href='images/trekking/" + Projects_List[i].ImageSeven.ToString().Trim() + "' class='rig-cell'>");
+                html.Append("<img class='rig-img'  src='images/trekking/" + Projects_List[i].ImageSeven.ToString().Trim() + "'");
+                html.Append("</img>");
+                html.Append("</a>");
+                html.Append("</li>");
+
+
+                html.Append("<li>");
+                html.Append("<a href='images/trekking/" + Projects_List[i].ImageEight.ToString().Trim() + "' class='rig-cell'>");
+                html.Append("<img class='rig-img'  src='images/trekking/" + Projects_List[i].ImageEight.ToString().Trim() + "'");
+                html.Append("</img>");
+                html.Append("</a>");
+                html.Append("</li>");
+
+                html.Append("</ul>");
+                html.Append("</div>");
 
 
 
@@ -153,6 +208,14 @@ public partial class TreknAdventureDescription : System.Web.UI.Page
                 obj_Projects.ThumbPic = dt.Tables[0].Rows[i]["ThumbPic"].ToString();
                 obj_Projects.BigPicInner = dt.Tables[0].Rows[i]["BigPicInner"].ToString();
                 obj_Projects.Short_Itinerary = dt.Tables[0].Rows[i]["Short_Itinerary"].ToString();
+                obj_Projects.ImageOne = dt.Tables[0].Rows[i]["ImageOne"].ToString();
+                obj_Projects.ImageTwo = dt.Tables[0].Rows[i]["ImageTwo"].ToString();
+                obj_Projects.ImageThree = dt.Tables[0].Rows[i]["ImageThree"].ToString();
+                obj_Projects.ImageFour = dt.Tables[0].Rows[i]["ImageFour"].ToString();
+                obj_Projects.ImageFive = dt.Tables[0].Rows[i]["ImageFive"].ToString();
+                obj_Projects.ImageSix = dt.Tables[0].Rows[i]["ImageSix"].ToString();
+                obj_Projects.ImageSeven = dt.Tables[0].Rows[i]["ImageSeven"].ToString();
+                obj_Projects.ImageEight = dt.Tables[0].Rows[i]["ImageEight"].ToString();
                 obj_Projects.ShortDescription = dt.Tables[0].Rows[i]["ShortDescription"].ToString();
                 Projects_List.Add(obj_Projects);
             }

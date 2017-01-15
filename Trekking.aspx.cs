@@ -60,6 +60,12 @@ public partial class Trekking : System.Web.UI.Page
                 obj_Projects.ThumbPic = dt.Tables[0].Rows[i]["ThumbPic"].ToString();
                 obj_Projects.BigPicInner = dt.Tables[0].Rows[i]["BigPicInner"].ToString();
                 obj_Projects.Short_Itinerary = dt.Tables[0].Rows[i]["Short_Itinerary"].ToString();
+                obj_Projects.ImageOne = dt.Tables[0].Rows[i]["ImageOne"].ToString();
+                obj_Projects.ImageTwo = dt.Tables[0].Rows[i]["ImageTwo"].ToString();
+                obj_Projects.ImageThree = dt.Tables[0].Rows[i]["ImageThree"].ToString();
+                obj_Projects.ImageFour = dt.Tables[0].Rows[i]["ImageFour"].ToString();
+                obj_Projects.ImageFive = dt.Tables[0].Rows[i]["ImageFive"].ToString();
+                obj_Projects.ImageSix = dt.Tables[0].Rows[i]["ImageSix"].ToString();
                 obj_Projects.ShortDescription = dt.Tables[0].Rows[i]["ShortDescription"].ToString();
                 TreknAdventures_List.Add(obj_Projects);
             }

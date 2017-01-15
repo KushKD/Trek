@@ -161,8 +161,6 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <!-- Necessary-JS-File-For-Bootstrap -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script src="dist/jquery.gridder.min.js"></script>
 
     <!-- Banner-Slider-JavaScript -->
     <script src="js/responsiveslides.min.js"></script>
@@ -208,27 +206,7 @@
     <script type="text/javascript" src="js/move-top.js"></script>
     <script type="text/javascript" src="js/easing.js"></script>
     <script type="text/javascript">
-        // Call Gridder
-        $('.gridder').gridderExpander({
-            scroll: true,
-            scrollOffset: 30,
-            scrollTo: "panel",                  // panel or listitem
-            animationSpeed: 400,
-            animationEasing: "easeInOutExpo",
-            showNav: true,                      // Show Navigation
-            nextText: "Next",                   // Next button text
-            prevText: "Previous",               // Previous button text
-            closeText: "Close",                 // Close button text
-            onStart: function () {
-                //Gridder Inititialized
-            },
-            onContent: function () {
-                //Gridder Content Loaded
-            },
-            onClosed: function () {
-                //Gridder Closed
-            }
-        });
+       
         jQuery(document).ready(function ($) {
             $(".scroll, .navbar li a, .footer li a").click(function (event) {
                 $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);

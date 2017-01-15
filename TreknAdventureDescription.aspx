@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="TreknAdventureDescription.aspx.cs" Inherits="TreknAdventureDescription" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server"> <link rel="stylesheet" type="text/css" href="css/imagegrid.css">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server"> 
 
     <br />
     <br />
