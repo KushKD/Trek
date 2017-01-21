@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="MountEverest2017.aspx.cs" Inherits="MountEverest2017" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server"><link rel="stylesheet" type="text/css" href="css/imagegrid.css">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
@@ -209,6 +209,62 @@ There is a trekkers’ aid post operated at Periche, supported by the Himalayan 
         </div>
     </div>
     <!--trip end here-->
+    <div class="clearfix"></div>
+    <div class="nemo container nemo-main" style="font-size: 0;">
+        <ul id="rig">
+
+            <li>
+                <a href="images/trekking/MtEverest/image1.jpg" class="rig-cell">
+                    <img class="rig-img" src="images/trekking/MtEverest/image1.jpg" />
+                </a>
+            </li>
+
+            <li>
+                <a href="images/trekking/MtEverest/image2.jpg" class="rig-cell">
+                    <img class="rig-img" src="images/trekking/MtEverest/image2.jpg" />
+                </a>
+            </li>
+
+            <li>
+                <a href="images/trekking/MtEverest/image3.jpg" class="rig-cell">
+                    <img class="rig-img" src="images/trekking/MtEverest/image3.jpg" />;
+                </a>
+            </li>
+
+            <li>
+                <a href="images/trekking/MtEverest/image4.jpg" class="rig-cell">
+                    <img class="rig-img" src="images/trekking/MtEverest/image4.jpg" />
+                </a>
+            </li>
+
+            <li>
+                <a href="images/trekking/MtEverest/image5.jpg" class="rig-cell">
+                    <img class="rig-img" src="images/trekking/MtEverest/image5.jpg" />
+                </a>
+            </li>
+
+            <li>
+                <a href="images/trekking/MtEverest/image6.jpg" class="rig-cell">
+                    <img class="rig-img" src="images/trekking/MtEverest/image6.jpg" />
+                </a>
+            </li>
+
+
+            <li>
+                <a href="images/trekking/MtEverest/image7.jpg" class="rig-cell">
+                    <img class="rig-img" src="images/trekking/MtEverest/image7.jpg" />
+                </a>
+            </li>
+
+
+            <li>
+                <a href="images/trekking/MtEverest/image8.jpg" class="rig-cell">
+                    <img class="rig-img" src="images/trekking/MtEverest/image8.jpg" />
+                </a>
+            </li>
+
+        </ul>
+    </div>
 
 
     <!--Costs start here-->
